@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FamilyFriend Cafe - A warm and inviting place for friends and family.">
+    <title>FamilyFriend Cafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">FamilyFriend.</div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <button class="menu-btn" aria-label="Toggle menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content fade-up">
+            <h1>Welcome to Your <br><span>Second Home</span></h1>
+            <p>Exceptional coffee, artisanal pastries, and a warm atmosphere tailored for family and friends.</p>
+            <a href="#menu" class="cta-btn">Explore Menu</a>
+        </div>
+    </header>
+
+    <section id="about" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-text slide-in-left">
+                <h2>Our Story</h2>
+                <p>Born from a passion for bringing people together, FamilyFriend is more than just a cafe. We're a community hub where laughter resonates, stories are shared, and every cup of coffee is crafted with love. Our beans are ethically sourced, and our pastries are baked fresh daily.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Organic Beans</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>Daily</h3>
+                        <p>Fresh Bakes</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image slide-in-right">
+                <img src="images/coffee_cup.png" alt="Perfect Cappuccino">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu section-padding">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Signature Menu</h2>
+                <p>Discover our carefully curated selection of drinks and treats.</p>
+            </div>
+            <div class="menu-grid">
+                <div class="menu-card fade-up">
+                    <div class="menu-card-img">
+                        <img src="images/coffee_cup.png" alt="Signature Latte">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Signature Velvet Latte</h3>
+                            <span class="price">$5.50</span>
+                        </div>
+                        <p>Our famous smooth espresso combined with velvety steamed milk and a hint of vanilla.</p>
+                    </div>
+                </div>
+                <div class="menu-card fade-up" style="transition-delay: 0.1s">
+                    <div class="menu-card-img">
+                        <img src="images/fresh_pastry.png" alt="Butter Croissant">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Classic Butter Croissant</h3>
+                            <span class="price">$4.00</span>
+                        </div>
+                        <p>Flaky, golden, and baked to perfection every morning. A true French classic.</p>
+                    </div>
+                </div>
+                <!-- Additional generic items based on cafe fare -->
+                <div class="menu-card fade-up" style="transition-delay: 0.2s">
+                    <div class="menu-card-img" style="background: #e8dbce;"></div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Avocado Smash Toast</h3>
+                            <span class="price">$11.00</span>
+                        </div>
+                        <p>Smashed avocado on artisanal sourdough with cherry tomatoes, feta, and a balsamic glaze.</p>
+                    </div>
+                </div>
+                <div class="menu-card fade-up" style="transition-delay: 0.3s">
+                    <div class="menu-card-img" style="background: #dfd3c3;"></div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>Iced Maple Cold Brew</h3>
+                            <span class="price">$5.00</span>
+                        </div>
+                        <p>Slow-steeped cold brew lightly sweetened with pure maple syrup and topped with oat milk.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials section-padding">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>What Locals Say</h2>
+                <p>Read experiences from our beloved patrons.</p>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-up">
+                    <div class="stars">★★★★★</div>
+                    <p>"The absolute best atmosphere in town! The staff feels like family, and the velvet latte is unmatched."</p>
+                    <span class="author">- A happy customer</span>
+                </div>
+                <div class="testimonial-card fade-up" style="transition-delay: 0.1s">
+                    <div class="stars">★★★★★</div>
+                    <p>"I come here every weekend. Their croissants are heaven, and it's the perfect spot to read a book."</p>
+                    <span class="author">- A happy customer</span>
+                </div>
+                <div class="testimonial-card fade-up" style="transition-delay: 0.2s">
+                    <div class="stars">★★★★★</div>
+                    <p>"Great place to meet up with friends or bring the kids. Cozy, welcoming, and the food is always fresh."</p>
+                    <span class="author">- A happy customer</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>FamilyFriend.</h2>
+                <p>Where every visit feels like coming home.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Visit Us</h3>
+                <p>123 Main Street<br>Cityville, State 12345</p>
+                <p><em>(Please verify against Google Maps)</em></p>
+            </div>
+            <div class="footer-hours">
+                <h3>Hours</h3>
+                <p>Mon - Fri: 7:00 AM - 6:00 PM</p>
+                <p>Sat - Sun: 8:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FamilyFriend Cafe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

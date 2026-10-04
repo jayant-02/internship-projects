@@ -1,0 +1,1151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Café Munir — Authentic Lebanese Mezze | Ballard, Seattle</title>
+  <meta name="description" content="Café Munir serves authentic Lebanese mezze, grilled meats, and an unmatched whiskey selection in the heart of Loyal Heights, Ballard, Seattle. Open since 2011." />
+  <meta name="keywords" content="Cafe Munir, Lebanese restaurant Seattle, mezze Ballard, Lebanese food Seattle, hummus Seattle, Mediterranean restaurant" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Café Munir — Authentic Lebanese Mezze" />
+  <meta property="og:description" content="Authentic Lebanese mezze in the heart of Ballard, Seattle. A neighborhood favorite since 2011." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Icons (Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ================================================
+       PAGE LOADER
+  ================================================= -->
+  <div class="page-loader" id="pageLoader" aria-hidden="true">
+    <div class="loader-logo">Café <span>Munir</span></div>
+    <div class="loader-bar">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- ================================================
+       NAVIGATION
+  ================================================= -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo" aria-label="Café Munir - Home">
+        <span class="nav-logo-main">Café <span>Munir</span></span>
+        <span class="nav-logo-sub">Est. 2011 · Seattle</span>
+      </a>
+
+      <!-- Desktop Links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#about"        class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#menu"         class="nav-link" id="nav-menu">Menu</a></li>
+        <li><a href="#gallery"      class="nav-link" id="nav-gallery">Gallery</a></li>
+        <li><a href="#testimonials" class="nav-link" id="nav-testimonials">Reviews</a></li>
+        <li><a href="#contact"      class="nav-link" id="nav-contact">Contact</a></li>
+      </ul>
+
+      <!-- CTA -->
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn--primary" id="nav-reserve-btn">Reserve a Table</a>
+      </div>
+
+      <!-- Hamburger -->
+      <button class="nav-hamburger" id="hamburgerBtn" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav-mobile" id="mobileMenu" role="dialog" aria-label="Mobile navigation">
+    <ul role="list" style="display:flex;flex-direction:column;align-items:center;gap:1.8rem;text-align:center;">
+      <li><a href="#about"        class="nav-link">About</a></li>
+      <li><a href="#menu"         class="nav-link">Menu</a></li>
+      <li><a href="#gallery"      class="nav-link">Gallery</a></li>
+      <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+      <li><a href="#contact"      class="nav-link">Contact</a></li>
+      <li style="margin-top:1rem;"><a href="#contact" class="btn btn--primary btn--lg">Reserve a Table</a></li>
+    </ul>
+  </div>
+
+  <main>
+
+    <!-- ================================================
+         HERO SECTION
+    ================================================= -->
+    <section id="hero" aria-label="Welcome to Café Munir">
+      <div class="hero-bg" aria-hidden="true">
+        <img src="assets/images/hero.png" alt="Lebanese mezze spread at Café Munir" loading="eager" />
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-overlay-bottom" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <div class="hero-badge reveal">
+          <span class="hero-badge-dot"></span>
+          <span class="hero-badge-text">Loyal Heights · Ballard, Seattle</span>
+        </div>
+
+        <h1 class="hero-title reveal reveal-delay-1">
+          Where Every Meal<br />
+          <em>Is a Gathering</em>
+        </h1>
+
+        <p class="hero-subtitle reveal reveal-delay-2">
+          Authentic Lebanese mezze crafted with love in the heart of Ballard.
+          Share plates, rich flavours, and warm moments — since 2011.
+        </p>
+
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#menu" class="btn btn--primary btn--lg" id="hero-menu-btn">
+            <i class="fa-solid fa-utensils"></i> Explore Our Menu
+          </a>
+          <a href="#contact" class="btn btn--outline btn--lg" id="hero-reserve-btn">
+            Reserve a Table
+          </a>
+        </div>
+      </div>
+
+      <!-- Scroll indicator -->
+      <button class="hero-scroll" aria-label="Scroll to About section">
+        <span>Scroll</span>
+        <div class="hero-scroll-line"></div>
+      </button>
+    </section>
+
+    <!-- ================================================
+         MARQUEE STRIP
+    ================================================= -->
+    <div class="marquee-strip" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-item"><span>Authentic Lebanese Mezze</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>Charcoal-Grilled Kebabs</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>50+ International Whiskeys</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>Chef's Choice Sundays</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>Open Since 2011</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>Vegetarian Friendly</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>Family Style Dining</span><span class="marquee-dot"></span></div>
+        <div class="marquee-item"><span>Reservations Welcome</span><span class="marquee-dot"></span></div>
+      </div>
+    </div>
+
+    <!-- ================================================
+         ABOUT SECTION
+    ================================================= -->
+    <section id="about" class="section" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Image -->
+          <div class="about-image-wrap reveal-left">
+            <div class="about-image-frame">
+              <img src="assets/images/interior.png" alt="Warm, intimate interior of Café Munir with arched doorways and wood accents" loading="lazy" />
+            </div>
+            <div class="about-image-badge">
+              <div class="about-image-badge-year">2011</div>
+              <div class="about-image-badge-text">Est. in Seattle</div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="about-content reveal-right">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title" id="about-heading">
+              A Taste of Lebanon in<br />the Heart of Ballard
+            </h2>
+
+            <p class="about-description">
+              Born from a deep love of Lebanese heritage, Café Munir opened its doors in 2011
+              under the vision of chef-owner <strong style="color:var(--color-cream)">Rajah Gargour</strong>.
+              Nestled quietly in Loyal Heights, we are a neighbourhood favourite — the kind of place
+              where you come for dinner and stay for the stories.
+            </p>
+
+            <p class="about-description">
+              Our kitchen celebrates the communal spirit of <em>mezze</em> — small, beautifully crafted
+              plates designed to be passed around and shared. Every dish is made using the freshest
+              ingredients: bright lemon, fragrant garlic, smoky sumac, and the finest olive oils.
+              Comfort food with a gourmet touch.
+            </p>
+
+            <blockquote class="about-quote">
+              <p>"Food is an act of love. Every plate we send out carries a piece of our culture, our family, and our warmth."</p>
+              <cite>— Rajah Gargour, Chef &amp; Owner</cite>
+            </blockquote>
+
+            <p class="about-description">
+              Beyond the food, discover our world-class collection of international whiskeys and
+              spirits — a passion project curated personally by Rajah to complement our
+              Mediterranean menu.
+            </p>
+
+            <!-- Stats -->
+            <div class="about-stats">
+              <div>
+                <div class="about-stat-value" data-counter="15" data-suffix="+" aria-label="15+ years">0+</div>
+                <div class="about-stat-label">Years Open</div>
+              </div>
+              <div>
+                <div class="about-stat-value" data-counter="50" data-suffix="+" aria-label="50+ whiskies">0+</div>
+                <div class="about-stat-label">Whiskeys</div>
+              </div>
+              <div>
+                <div class="about-stat-value" data-counter="30" data-suffix="+" aria-label="30+ mezze items">0+</div>
+                <div class="about-stat-label">Mezze Items</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         MENU SECTION
+    ================================================= -->
+    <section id="menu" class="section" aria-labelledby="menu-heading">
+      <div class="container">
+
+        <div class="menu-header reveal">
+          <span class="section-label">What We Serve</span>
+          <h2 class="section-title" id="menu-heading">A Feast for the Senses</h2>
+          <p class="section-subtitle">
+            Our menu celebrates the Lebanese tradition of communal dining —
+            every dish an invitation to share, savour, and connect.
+          </p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="menu-tabs reveal" role="tablist" aria-label="Menu categories">
+          <button class="menu-tab active" data-tab="cold-mezze" role="tab" aria-selected="true"  id="tab-cold-mezze">Cold Mezze</button>
+          <button class="menu-tab"        data-tab="hot-mezze"  role="tab" aria-selected="false" id="tab-hot-mezze">Hot Mezze</button>
+          <button class="menu-tab"        data-tab="grills"     role="tab" aria-selected="false" id="tab-grills">Grills &amp; Entrées</button>
+          <button class="menu-tab"        data-tab="breads"     role="tab" aria-selected="false" id="tab-breads">Breads &amp; Sides</button>
+          <button class="menu-tab"        data-tab="desserts"   role="tab" aria-selected="false" id="tab-desserts">Desserts</button>
+          <button class="menu-tab"        data-tab="drinks"     role="tab" aria-selected="false" id="tab-drinks">Beverages</button>
+        </div>
+
+        <!-- COLD MEZZE -->
+        <div class="menu-panel active" data-panel="cold-mezze" role="tabpanel" aria-labelledby="tab-cold-mezze">
+          <div class="menu-grid">
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Classic Hummus</div>
+                <div class="menu-card-price">$10</div>
+              </div>
+              <p class="menu-card-desc">Silky smooth chickpea purée blended with tahini, lemon, and garlic. Finished with a drizzle of cold-pressed olive oil and a sprinkle of sumac.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Muhammara</div>
+                <div class="menu-card-price">$12</div>
+              </div>
+              <p class="menu-card-desc">Our celebrated roasted red pepper and walnut dip — smoky, rich, with a kiss of pomegranate molasses and Aleppo chilli. One of our most beloved cold mezze.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--chef">Chef's Fav</span>
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Labne with Pickled Beets</div>
+                <div class="menu-card-price">$11</div>
+              </div>
+              <p class="menu-card-desc">Strained yoghurt cheese topped with vivid pickled golden and ruby beets, fresh herbs, and a warm spiced olive oil. Stunning to look at, extraordinary to taste.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Fattoush Salad</div>
+                <div class="menu-card-price">$13</div>
+              </div>
+              <p class="menu-card-desc">Crisp seasonal vegetables with toasted pita chips, sumac-lemon dressing, fresh mint, and pomegranate seeds. Bright, tangy, and refreshing.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Tabbouleh</div>
+                <div class="menu-card-price">$11</div>
+              </div>
+              <p class="menu-card-desc">The classic Lebanese parsley salad with fine bulgur wheat, ripe tomatoes, spring onion, lemon juice, and fine olive oil. Herb-forward and vibrant.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Baba Ganoush</div>
+                <div class="menu-card-price">$11</div>
+              </div>
+              <p class="menu-card-desc">Fire-roasted aubergine mashed with tahini, garlic, and lemon. The charred smokiness is irresistible. Served with warm pita.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- HOT MEZZE -->
+        <div class="menu-panel" data-panel="hot-mezze" role="tabpanel" aria-labelledby="tab-hot-mezze">
+          <div class="menu-grid">
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Hummus with Sizzling Lamb</div>
+                <div class="menu-card-price">$17</div>
+              </div>
+              <p class="menu-card-desc">Our most iconic dish. Warm hummus loaded with spiced minced lamb, toasted pine nuts, sumac-pickled onions, and a pool of golden olive oil. Arrive early — it disappears fast.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--chef">Chef's Fav</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Roasted Cauliflower</div>
+                <div class="menu-card-price">$14</div>
+              </div>
+              <p class="menu-card-desc">Whole-roasted cauliflower with charred edges, dressed in a vibrant herb tahini, pomegranate, capers, and toasted almonds. A showstopper plant-based plate.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Falafel Plate</div>
+                <div class="menu-card-price">$13</div>
+              </div>
+              <p class="menu-card-desc">House-made falafel — crisp outside, impossibly tender within — made from soaked chickpeas and fresh herbs. Served with tahini sauce and pickled turnip.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Sujuk Sausage</div>
+                <div class="menu-card-price">$15</div>
+              </div>
+              <p class="menu-card-desc">Spiced Lebanese sausages pan-fried and served with tomato-lemon sauce and grilled flatbread. Deeply aromatic with cumin, allspice, and fenugreek.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Halloumi &amp; Za'atar</div>
+                <div class="menu-card-price">$14</div>
+              </div>
+              <p class="menu-card-desc">Pan-seared Cypriot halloumi with a golden crust, finished with za'atar, lemon, and honey. Salty, squeaky perfection.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Spinach &amp; Cheese Fatayer</div>
+                <div class="menu-card-price">$13</div>
+              </div>
+              <p class="menu-card-desc">Traditional Lebanese pastry parcels filled with wilted spinach, feta, pine nuts, and sumac. Baked until golden and irresistibly flaky.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- GRILLS & ENTRÉES -->
+        <div class="menu-panel" data-panel="grills" role="tabpanel" aria-labelledby="tab-grills">
+          <div class="menu-grid">
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Grilled Chicken Skewers</div>
+                <div class="menu-card-price">$22</div>
+              </div>
+              <p class="menu-card-desc">Juicy, charcoal-grilled chicken marinated in lemon, garlic, seven spices, and olive oil. Served with herbed rice, grilled vegetables, and garlic toum.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--chef">Chef's Fav</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Lamb Kofta Kebabs</div>
+                <div class="menu-card-price">$25</div>
+              </div>
+              <p class="menu-card-desc">Ground lamb mixed with onion, parsley, and Middle Eastern spices, hand-formed onto skewers and charcoal-grilled to perfection. Served with yoghurt and flatbread.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--chef">Chef's Fav</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Braised Lamb Shank</div>
+                <div class="menu-card-price">$32</div>
+              </div>
+              <p class="menu-card-desc">Slow-braised lamb shank in a rich tomato-spice broth with chickpeas, served over saffron rice with toasted almonds and caramelised onion. Deeply comforting.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Mixed Grill Platter</div>
+                <div class="menu-card-price">$48</div>
+              </div>
+              <p class="menu-card-desc">A generous sharing platter of chicken skewers, lamb kofta, and grilled vegetables. The ultimate celebration of Lebanese charcoal grilling. For two or more.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Grilled Fish of the Day</div>
+                <div class="menu-card-price">Market</div>
+              </div>
+              <p class="menu-card-desc">Whole or filleted fresh catch, marinated in chermoula, grilled over charcoal. Served with Lebanese rice pilaf and a selection of cold mezze.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- BREADS & SIDES -->
+        <div class="menu-panel" data-panel="breads" role="tabpanel" aria-labelledby="tab-breads">
+          <div class="menu-grid">
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">House Flatbread</div>
+                <div class="menu-card-price">$6</div>
+              </div>
+              <p class="menu-card-desc">Fresh-baked warm pita, pillowy and charred at the edges. The perfect vehicle for all our dips. Baked throughout service.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Za'atar Manoushe</div>
+                <div class="menu-card-price">$9</div>
+              </div>
+              <p class="menu-card-desc">Lebanon's beloved breakfast flatbread — doughy and crisp — dressed generously with fragrant za'atar herb blend mixed with olive oil. Simple perfection.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Cheese Manoushe</div>
+                <div class="menu-card-price">$12</div>
+              </div>
+              <p class="menu-card-desc">Flatbread layered with melted Akkawi and Nabulsi cheese blend, blistered in the oven until golden and gloriously gooey. A crowd favourite.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Lebanese Rice Pilaf</div>
+                <div class="menu-card-price">$7</div>
+              </div>
+              <p class="menu-card-desc">Long grain rice cooked in spiced broth with vermicelli noodles, topped with caramelised onions and toasted pine nuts.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- DESSERTS -->
+        <div class="menu-panel" data-panel="desserts" role="tabpanel" aria-labelledby="tab-desserts">
+          <div class="menu-grid">
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Pistachio Baklava</div>
+                <div class="menu-card-price">$9</div>
+              </div>
+              <p class="menu-card-desc">Layers of paper-thin phyllo pastry with crushed pistachios and walnuts, drenched in rose-scented orange blossom syrup. Shatteringly crisp, decadently sweet.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Milk Pudding (Muhallabia)</div>
+                <div class="menu-card-price">$9</div>
+              </div>
+              <p class="menu-card-desc">Silky Lebanese milk pudding delicately perfumed with rose water, crowned with local honey, chopped pistachios, and a shimmer of dried rose petals.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+                <span class="menu-tag menu-tag--chef">Chef's Fav</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Knafeh</div>
+                <div class="menu-card-price">$11</div>
+              </div>
+              <p class="menu-card-desc">The king of Lebanese sweets. Shredded kataifi pastry layered over warm stretchy Akkawi cheese, baked golden, soaked in sugar syrup, and finished with crushed pistachios.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--veg">Vegetarian</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Seasonal Fruit Sorbet</div>
+                <div class="menu-card-price">$7</div>
+              </div>
+              <p class="menu-card-desc">A daily rotating selection of house-made sorbets using seasonal Pacific Northwest fruits. Light, refreshing, and the perfect finale.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- BEVERAGES -->
+        <div class="menu-panel" data-panel="drinks" role="tabpanel" aria-labelledby="tab-drinks">
+          <div class="menu-grid">
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Arak (Lebanese Spirit)</div>
+                <div class="menu-card-price">$12</div>
+              </div>
+              <p class="menu-card-desc">The national spirit of Lebanon — anise-flavoured and diluted with cold water until it clouds into the traditional "milk of lions". Served with ice and water, as tradition demands.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Single Malt Whiskey Selection</div>
+                <div class="menu-card-price">$14–$28</div>
+              </div>
+              <p class="menu-card-desc">Explore our world-class collection of 50+ international whiskeys — from Scotch and Irish to Japanese, American, and rare world blends. Ask your server for today's featured pour.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--chef">Chef's Curated</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Orange Wine</div>
+                <div class="menu-card-price">$13</div>
+              </div>
+              <p class="menu-card-desc">Skin-contact white wine with tannin and depth — a perfect pairing with mezze. Our selection changes seasonally, sourced from artisan producers in Lebanon, Georgia, and beyond.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Craft Cider &amp; Beers</div>
+                <div class="menu-card-price">$8–$11</div>
+              </div>
+              <p class="menu-card-desc">A rotating selection of Pacific Northwest craft beers and ciders — from crisp sessionable ales to bold IPAs. Local, seasonal, and always interesting.</p>
+              <div class="menu-card-tags"></div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Lebanese Mint Lemonade</div>
+                <div class="menu-card-price">$6</div>
+              </div>
+              <p class="menu-card-desc">Freshly squeezed lemon blended with mint leaves and a touch of rose water. Bright, refreshing, and the perfect non-alcoholic companion to our mezze.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+            <div class="menu-card">
+              <div class="menu-card-header">
+                <div class="menu-card-name">Turkish Coffee</div>
+                <div class="menu-card-price">$5</div>
+              </div>
+              <p class="menu-card-desc">Rich, thick coffee prepared in a traditional cezve, served in a small cup with cardamom. The perfect end to any Café Munir meal.</p>
+              <div class="menu-card-tags">
+                <span class="menu-tag menu-tag--vegan">Vegan</span>
+                <span class="menu-tag menu-tag--gf">GF</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Chef's Choice Note -->
+        <div class="menu-special-note reveal">
+          <h3>☆ Sunday Chef's Choice</h3>
+          <p>
+            Every Sunday, Chef Rajah curates a special fixed-price menu featuring seasonal ingredients
+            and his personal favourites. A truly unique dining experience — no menu, just trust.
+            <br /><br />
+            <a href="#contact" class="btn btn--outline" style="margin-top:0.5rem;">Reserve for Sunday</a>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         GALLERY SECTION
+    ================================================= -->
+    <section id="gallery" class="section" aria-labelledby="gallery-heading">
+      <div class="container">
+
+        <div class="gallery-header reveal">
+          <span class="section-label">Our World</span>
+          <h2 class="section-title" id="gallery-heading">A Feast for the Eyes</h2>
+          <p class="section-subtitle">Step inside Café Munir — from our sun-washed interiors to the richly coloured plates that arrive at your table.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal" data-label="Lebanese Mezze Spread" style="aspect-ratio:unset">
+            <img src="assets/images/hero.png" alt="A beautiful Lebanese mezze spread with hummus, muhammara, and flatbread" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-content">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                Lebanese Mezze Spread
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-1">
+            <img src="assets/images/interior.png" alt="Warm, intimate interior of Café Munir with arched doorways" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-content">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                Our Dining Room
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-2">
+            <img src="assets/images/food.png" alt="Hummus with sizzling lamb and pine nuts — Café Munir's signature dish" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-content">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                Hummus with Sizzling Lamb
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-3">
+            <img src="assets/images/whiskey.png" alt="Café Munir's award-winning whiskey bar selection" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-content">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                The Whiskey Bar
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item reveal reveal-delay-4">
+            <img src="assets/images/communal.png" alt="Friends sharing mezze dishes at Café Munir" loading="lazy" />
+            <div class="gallery-overlay">
+              <div class="gallery-overlay-content">
+                <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+                Communal Dining
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         TESTIMONIALS SECTION
+    ================================================= -->
+    <section id="testimonials" class="section" aria-labelledby="testimonials-heading">
+      <div class="container">
+
+        <div class="testimonials-header reveal">
+          <span class="section-label">What Guests Say</span>
+          <h2 class="section-title" id="testimonials-heading">Loved by Our Community</h2>
+          <p class="section-subtitle">
+            Don't just take our word for it — here's what our neighbours and guests have to say.
+          </p>
+        </div>
+
+        <div class="testimonials-carousel reveal">
+          <div class="testimonials-track" role="list">
+
+            <div class="testimonial-card" role="listitem">
+              <div class="testimonial-stars" aria-label="5 stars">
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+              </div>
+              <p class="testimonial-text">"The hummus with sizzling lamb is absolutely incredible — I've been dreaming about it since I left. The whole experience felt so warm and special. Easily one of the best restaurants in Seattle."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">S</div>
+                <div>
+                  <div class="testimonial-name">Sarah M.</div>
+                  <div class="testimonial-source"><i class="fab fa-google"></i> Google Review</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" role="listitem">
+              <div class="testimonial-stars" aria-label="5 stars">
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+              </div>
+              <p class="testimonial-text">"Authentic, delicious, and so welcoming. The muhammara and labne with pickled beets were revelatory. The service was warm and the whiskey selection blew us away. This is our new date-night spot."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">J</div>
+                <div>
+                  <div class="testimonial-name">James &amp; Priya T.</div>
+                  <div class="testimonial-source"><i class="fab fa-google"></i> Google Review</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" role="listitem">
+              <div class="testimonial-stars" aria-label="5 stars">
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+              </div>
+              <p class="testimonial-text">"I've been coming here for years and it never disappoints. The food is consistently delicious — every mezze plate is crafted with real care. Café Munir is a true Ballard gem."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">A</div>
+                <div>
+                  <div class="testimonial-name">Alex K.</div>
+                  <div class="testimonial-source"><i class="fab fa-google"></i> Google Review</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" role="listitem">
+              <div class="testimonial-stars" aria-label="5 stars">
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+              </div>
+              <p class="testimonial-text">"Tucked away in a quiet neighbourhood, this restaurant punches way above its weight. The roasted cauliflower was a highlight, and the staff made us feel like regulars from the moment we walked in."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">M</div>
+                <div>
+                  <div class="testimonial-name">Michelle L.</div>
+                  <div class="testimonial-source"><i class="fab fa-google"></i> Google Review</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" role="listitem">
+              <div class="testimonial-stars" aria-label="5 stars">
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+              </div>
+              <p class="testimonial-text">"Comfort food elevated to an art form. We shared everything and every plate was perfect. The grilled chicken skewers with garlic toum were outstanding. We'll be back very soon."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">R</div>
+                <div>
+                  <div class="testimonial-name">Ryan &amp; Olivia B.</div>
+                  <div class="testimonial-source"><i class="fab fa-google"></i> Google Review</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card" role="listitem">
+              <div class="testimonial-stars" aria-label="5 stars">
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+                <span class="testimonial-star">★</span>
+              </div>
+              <p class="testimonial-text">"Great atmosphere, incredibly fragrant food, and a whiskey collection that rivals any bar in the city. Café Munir is the kind of place that reminds you why you love eating out."</p>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar" aria-hidden="true">D</div>
+                <div>
+                  <div class="testimonial-name">David C.</div>
+                  <div class="testimonial-source"><i class="fab fa-google"></i> Google Review</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="testimonials-controls reveal">
+          <button class="testimonials-btn testimonials-btn--prev" aria-label="Previous testimonial">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <div class="testimonials-dots" role="group" aria-label="Testimonial navigation dots"></div>
+          <button class="testimonials-btn testimonials-btn--next" aria-label="Next testimonial">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ================================================
+         CONTACT SECTION
+    ================================================= -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+
+        <div class="contact-grid">
+
+          <!-- Info -->
+          <div class="reveal-left">
+            <span class="section-label">Find Us</span>
+            <h2 id="contact-heading">Come Visit Us</h2>
+            <p class="contact-desc">
+              We're tucked away on a quiet Ballard street — look for our sign in the window.
+              Walk-ins are welcome, but reservations are recommended, especially on weekends.
+            </p>
+
+            <div class="contact-details">
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Address</div>
+                  <div class="contact-detail-value">
+                    2408 NW 80th St<br />Seattle, WA 98117<br />
+                    <em style="color:var(--color-text-muted);font-size:0.85em;">Loyal Heights · Ballard</em>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Phone</div>
+                  <div class="contact-detail-value">
+                    <a href="tel:+12069990000" style="color:inherit;">(206) 999-0000</a>
+                    <br /><em style="color:var(--color-text-muted);font-size:0.85em;">Please verify on Google Maps</em>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-detail">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <i class="fa-solid fa-clock"></i>
+                </div>
+                <div>
+                  <div class="contact-detail-label">Opening Hours</div>
+                  <div class="contact-detail-value">
+                    <div class="contact-hours">
+                      <span class="contact-hours-day">Tuesday–Thursday</span>
+                      <span class="contact-hours-time">5:00 – 9:30 pm</span>
+                      <span class="contact-hours-day">Friday–Saturday</span>
+                      <span class="contact-hours-time">5:00 – 10:30 pm</span>
+                      <span class="contact-hours-day">Sunday</span>
+                      <span class="contact-hours-time">5:00 – 9:00 pm</span>
+                      <span class="contact-hours-day">Monday</span>
+                      <span class="contact-hours-time">Closed</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Social Links -->
+            <div class="contact-social">
+              <a href="#" class="contact-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="contact-social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.google.com/maps/place/Caf%C3%A9+Munir/@47.6933924,-122.3837135,17z" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="Google Maps"><i class="fab fa-google"></i></a>
+              <a href="#" class="contact-social-link" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+            </div>
+
+            <!-- Map -->
+            <div class="contact-map">
+              <iframe
+                title="Café Munir location on Google Maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.0!2d-122.3837135!3d47.6933924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901e1496a84d43%3A0x1b44ec93e782627e!2sCaf%C3%A9%20Munir!5e0!3m2!1sen!2sus!4v1700000000000"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Reservation Form -->
+          <div class="reveal-right">
+            <div class="reservation-form">
+              <h3>Reserve a Table</h3>
+              <form id="reservationForm" novalidate>
+                <div class="form-grid">
+
+                  <div class="form-group">
+                    <label class="form-label" for="firstName">First Name</label>
+                    <input class="form-input" type="text" id="firstName" name="firstName" placeholder="Leila" required autocomplete="given-name" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="lastName">Last Name</label>
+                    <input class="form-input" type="text" id="lastName" name="lastName" placeholder="Hassan" required autocomplete="family-name" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="phone">Phone</label>
+                    <input class="form-input" type="tel" id="phone" name="phone" placeholder="(206) 555-0000" autocomplete="tel" />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="date">Preferred Date</label>
+                    <input class="form-input" type="date" id="date" name="date" required />
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="time">Preferred Time</label>
+                    <select class="form-select" id="time" name="time" required>
+                      <option value="" disabled selected>Choose time</option>
+                      <option value="17:00">5:00 PM</option>
+                      <option value="17:30">5:30 PM</option>
+                      <option value="18:00">6:00 PM</option>
+                      <option value="18:30">6:30 PM</option>
+                      <option value="19:00">7:00 PM</option>
+                      <option value="19:30">7:30 PM</option>
+                      <option value="20:00">8:00 PM</option>
+                      <option value="20:30">8:30 PM</option>
+                      <option value="21:00">9:00 PM</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="guests">Party Size</label>
+                    <select class="form-select" id="guests" name="guests" required>
+                      <option value="" disabled selected>Guests</option>
+                      <option value="1">1 Guest</option>
+                      <option value="2">2 Guests</option>
+                      <option value="3">3 Guests</option>
+                      <option value="4">4 Guests</option>
+                      <option value="5">5 Guests</option>
+                      <option value="6">6 Guests</option>
+                      <option value="7+">7+ Guests</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label class="form-label" for="occasion">Occasion</label>
+                    <select class="form-select" id="occasion" name="occasion">
+                      <option value="" disabled selected>Optional</option>
+                      <option value="birthday">Birthday</option>
+                      <option value="anniversary">Anniversary</option>
+                      <option value="date">Date Night</option>
+                      <option value="business">Business Dinner</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group form-group--full">
+                    <label class="form-label" for="notes">Special Requests</label>
+                    <textarea class="form-textarea" id="notes" name="notes" placeholder="Dietary restrictions, seating preferences, or anything else we should know…" rows="3"></textarea>
+                  </div>
+
+                </div>
+
+                <button type="submit" class="btn btn--primary form-submit" id="submitReservation">
+                  <i class="fa-solid fa-paper-plane"></i> Request Reservation
+                </button>
+              </form>
+
+              <!-- Success Message -->
+              <div class="form-success" id="formSuccess" aria-live="polite">
+                <div class="form-success-icon">🎉</div>
+                <h4>Reservation Request Sent!</h4>
+                <p>Thank you — we'll confirm your table within 24 hours. We look forward to welcoming you to Café Munir.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================================================
+       FOOTER
+  ================================================= -->
+  <footer id="footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Brand -->
+        <div>
+          <div class="footer-brand-logo">Café <span>Munir</span></div>
+          <div class="footer-brand-tagline">Est. 2011 · Ballard, Seattle</div>
+          <p class="footer-brand-desc">
+            Authentic Lebanese mezze in the heart of Loyal Heights.
+            A neighbourhood table — always warm, always welcoming.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="footer-social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="footer-social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.google.com/maps/place/Caf%C3%A9+Munir" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Google Maps"><i class="fab fa-google"></i></a>
+            <a href="#" class="footer-social-link" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div>
+          <div class="footer-col-title">Navigate</div>
+          <ul class="footer-links" role="list">
+            <li><a href="#about"        class="footer-link">About Us</a></li>
+            <li><a href="#menu"         class="footer-link">Our Menu</a></li>
+            <li><a href="#gallery"      class="footer-link">Gallery</a></li>
+            <li><a href="#testimonials" class="footer-link">Reviews</a></li>
+            <li><a href="#contact"      class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Hours -->
+        <div>
+          <div class="footer-col-title">Hours</div>
+          <ul class="footer-links" role="list" style="gap:0.8rem;">
+            <li><span class="footer-link">Tue–Thu: 5:00–9:30 pm</span></li>
+            <li><span class="footer-link">Fri–Sat: 5:00–10:30 pm</span></li>
+            <li><span class="footer-link">Sunday: 5:00–9:00 pm</span></li>
+            <li><span class="footer-link" style="color:var(--color-terracotta)">Monday: Closed</span></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div>
+          <div class="footer-col-title">Stay in Touch</div>
+          <p class="footer-newsletter-desc">
+            Sign up for seasonal menu updates, special events, and Chef's Choice announcements.
+          </p>
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <input type="email" class="newsletter-input" placeholder="your@email.com" aria-label="Email for newsletter" required />
+            <button type="submit" class="newsletter-btn">Subscribe</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2024 Café Munir · 2408 NW 80th St, Seattle, WA 98117 ·
+          Made with <span style="color:var(--color-terracotta)">♥</span> in Seattle
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link">Terms of Service</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Gallery Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Image viewer" aria-modal="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <div class="lightbox-content">
+      <img class="lightbox-img" src="" alt="" id="lightboxImg" />
+    </div>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
